@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+input{
+    width:100%;
+    padding: 8px;
+    border: 1px solid #000;
+}
+.form{
+    max-width:1100px;
+    margin: 60px auto;
+}
+.form-content{
+    width:620px;
+    margin: 0 auto;
+    padding:0 20px;
+}
+.form__main{
+    margin: 0 auto;
+}
+.form__main-conteiner, .form__passport-conteiner{
+    margin: 20px 0;
+    text-align: left;
+
+}
+.form__main-select{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0;
+}
+.main-select__item{
+    select{
+        width:100%;
+    }
+}
+.main-select__item:nth-child(odd){
+    select{
+        height:30px;
+    }
+}
+.form__main-checkbox{
+    
+    margin-top:20px;
+    text-align: top;
+    label{
+        height:20px;
+    }
+}
+input.send_SMS{
+    position: relative;
+    top:2px;
+    width:17px;
+    height:17px;
+    margin:0;
+    margin-left:20px;
+}
+.form__adress-container, .form__passport-conteiner{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:20px;
+}
+.adress-container__item, .passport-conteiner__item{
+    text-align: left;
+    width:250px;
+}
+.form__passport-conteiner{
+    text-align: left;
+    select{
+        width:107%;
+        height:30px;
+    }
+}
+.passport-conteiner__date{
+    margin-top:20px;
+    width:42%;
+    text-align: left;
+    input{
+        width:100%;
+    }
+}
+.button__add{
+    cursor: pointer;
+    background-color: rgb(199, 38, 38);
+    padding: 14px 22px 12px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-top:20px;
+}
